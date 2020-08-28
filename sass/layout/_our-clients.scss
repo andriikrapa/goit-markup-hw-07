@@ -1,0 +1,40 @@
+/* Section Our Clients */
+
+.our-clients.section{
+    padding-top: 94px;
+    padding-bottom: 95px;
+}
+
+.our-clients h2{
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.our-clients ul{
+    display: flex;
+    margin: -15px;
+}
+
+.our-clients a{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 90px;
+    border: 1px solid $svg-bg-color;
+    border-radius: 4px;
+    margin: 15px;
+
+    fill: $svg-bg-color;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-clients a:hover,
+.our-clients a:focus{
+    border-color: $accent-color; 
+    fill: $accent-color;
+}
